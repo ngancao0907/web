@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Thành Viên</title>
+    <link href="./images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+</head>
+<body>
+    <header>
+        <a href="trangchu.html">
+            <img src="./images/logo.png" id="logo">
+        </a>
+        <nav>
+            <a href="./trangchu.html">Trang Chủ</a>
+            <a href="./gioithieu.html">Giới Thiệu</a>
+            <a href="./sanpham.html">Sản Phẩm</a>
+            <a href="./tintuc.html">Tin Tức</a>
+            <a href="./dangnhap.html">Đăng Nhập</a>
+            <a href="./dangky.html">Đăng Ký</a>
+            <a href="./lienhe.html">Liên Hệ</a>
+        </nav>
+    </header>
+    <main>
+        <form action="" method="POST" style="width: 525px" enctype="multipart/form-data">
+            <fieldset>
+                <legend><b>ĐĂNG KÝ</b></legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="email">
+                                <b>Email</b>
+                            </label>
+                        </td>
+                        <td>
+                            <input type="text" id="email" name="email" placeholder="Vui lòng nhập email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="matkhau">
+                                <b>Mật khẩu</b>
+                            </label>
+                        </td>
+                        <td>
+                            <input type="password" id="matkhau" name="psw" placeholder="Vui lòng nhập mật khẩu">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="matkhau2">
+                                <b>Nhập lại mật khẩu</b>
+                            </label>
+                        </td>
+                        <td>
+                            <input type="password" id="matkhau2" name="psw2" placeholder="Vui lòng nhập mật khẩu">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="rank">
+                                <b>Cấp độ thành viên</b>
+                            </label>
+                        </td>
+                        <td>
+                            <input type="radio" name="memberType" checked="Bạc"><b>Bạc</b>
+                            <input type="radio" name="memberType"><b>Vàng</b>
+                            <input type="radio" name="memberType"><b>Bạch Kim</b>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="avata">
+                                <b>Ảnh đại diện</b>
+                            </label>
+                        </td>
+                        <td>
+                            <input type="file" id="avata">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2"><b>Thông qua việc tạo tài khoản, bạn đồng ý với 
+                            <a href="#"><b>Điều khoản & Quyền riêng tư của chúng tôi</b></a>
+                        </b></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="reset" value="Hủy">
+                            <input type="submit" value="Đăng Ký">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2021 Bản quyền thuộc về FreeezeVN.
+            <a href="https://www.facebook.com">facebook</a>
+            <a href="https://twitter.com">twitter</a>
+            <a href="https://www.pinterest.com">pinterest</a>
+            <a href="#logo">Về Đầu Trang</a>
+        </p>
+    </footer>
+</body>
+</html>
